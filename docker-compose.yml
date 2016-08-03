@@ -1,0 +1,5 @@
+nginx:
+    build: .
+    command: bash -c /pkg/build.sh
+    volumes:
+        - ./pkg:/pkg
